@@ -4,6 +4,11 @@ def reverseWords(s: str) -> str:
     
     return ' '.join(result)
 
+# better solution
+def reverseWords(s: str) -> str:
+    lst = s.split()
+    lst.reverse()
+    return " ".join(lst)
 
 test_cases = [
     {"name": "Case 1", "input": ("the sky is blue"), "expected": "blue is sky the"},
