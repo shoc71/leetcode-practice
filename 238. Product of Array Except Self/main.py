@@ -14,6 +14,7 @@ def productExceptSelf(nums: list[int]) -> list[int]:
 
     return result
 
+# one-loop challenge
 def productExceptSelf(nums: list[int]) -> list[int]:
     n = len(nums)
     result = [1] * n
